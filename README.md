@@ -9,7 +9,7 @@ chatgpt-telegram-bot
 ## Install
 
 ```
-go get github.com/pefish/chatgpt-telegram-bot/cmd/chatgpt-telegram-bot
+go install github.com/pefish/chatgpt-telegram-bot/cmd/chatgpt-telegram-bot@latest
 ```
 
 ## Quick start
