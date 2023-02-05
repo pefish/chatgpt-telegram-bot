@@ -1,0 +1,13 @@
+[Unit]
+Description=create_golang_app_template
+After=network.target
+After=create_golang_app_template.service
+Wants=create_golang_app_template.service
+
+[Service]
+ExecStart=/usr/local/bin/create_golang_app_template
+Environment=GO_CONFIG="/opt/create_golang_app_template/config.yaml"
+Environment=LOG_LEVEL="debug"
+
+[Install]
+WantedBy=multi-user.target
