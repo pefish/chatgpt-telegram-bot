@@ -51,6 +51,8 @@ github.com/pefish/go-test-assert v0.0.1 h1:zWV2Hnn/Rtjf+bEOlyB8qF9ThJb7gmXpRPWEq
 github.com/pefish/go-test-assert v0.0.1/go.mod h1:kfcsv5ag411u06gdV4iRKU8D0zOglian/DBacnCoQdc=
 github.com/pefish/telegram-bot-manager v0.1.7 h1:17vKlJxscM0/a71dyPOwD5qq5J1p6/NZThOI8omlq+s=
 github.com/pefish/telegram-bot-manager v0.1.7/go.mod h1:4nuKpg/LopAVLpx6/uhUQflwZ4FqfnMvHMKbpEDIJdQ=
+github.com/pefish/telegram-bot-manager v0.1.8 h1:VlMuIs2MyDsb9LnWYTJ/ySjpBDlqE9pAZewjrB0Q/2U=
+github.com/pefish/telegram-bot-manager v0.1.8/go.mod h1:4nuKpg/LopAVLpx6/uhUQflwZ4FqfnMvHMKbpEDIJdQ=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=

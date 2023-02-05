@@ -1,3 +1,4 @@
 
 tg-token: "**"
 chatgpt-token: "**"
+fetch-interval: 5

@@ -6,8 +6,9 @@ require (
 	github.com/pefish/go-commander v0.4.8
 	github.com/pefish/go-config v0.2.2
 	github.com/pefish/go-error v1.0.4
+	github.com/pefish/go-http v0.5.8
 	github.com/pefish/go-logger v0.4.15
-	github.com/pefish/telegram-bot-manager v0.1.7
+	github.com/pefish/telegram-bot-manager v0.1.8
 )
 
 require (
@@ -17,7 +18,6 @@ require (
 	github.com/mitchellh/mapstructure v1.1.2 // indirect
 	github.com/pefish/go-decimal v0.2.2 // indirect
 	github.com/pefish/go-format v0.1.3 // indirect
-	github.com/pefish/go-http v0.5.8 // indirect
 	github.com/pefish/go-interface-logger v0.0.8 // indirect
 	github.com/pefish/go-reflect v0.2.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect

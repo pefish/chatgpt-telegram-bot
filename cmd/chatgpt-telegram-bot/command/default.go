@@ -46,7 +46,12 @@ func (dc *DefaultCommand) Start(data *commander.StartData) error {
 		return go_error.WithStack(err)
 	}
 
-	dc.robot = telegram_robot.NewRobot(tgToken, 2 * time.Second)
+	fetchInterval, err := go_config.ConfigManagerInstance.GetUint64("fetch-interval")
+	if err != nil {
+		return go_error.WithStack(err)
+	}
+
+	dc.robot = telegram_robot.NewRobot(tgToken, time.Duration(fetchInterval) * time.Second)
 	dc.robot.SetLogger(go_logger.Logger)
 
 	err = dc.robot.Start(data.ExitCancelCtx, data.DataDir, func(command string, data string) string {
