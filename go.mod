@@ -8,7 +8,7 @@ require (
 	github.com/pefish/go-error v1.0.4
 	github.com/pefish/go-http v0.5.8
 	github.com/pefish/go-logger v0.4.15
-	github.com/pefish/telegram-bot-manager v0.1.8
+	github.com/pefish/telegram-bot-manager v0.1.9
 )
 
 require (

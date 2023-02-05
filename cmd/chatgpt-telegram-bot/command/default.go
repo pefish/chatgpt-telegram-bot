@@ -55,7 +55,10 @@ func (dc *DefaultCommand) Start(data *commander.StartData) error {
 	dc.robot.SetLogger(go_logger.Logger)
 
 	err = dc.robot.Start(data.ExitCancelCtx, data.DataDir, func(command string, data string) string {
-		go_logger.Logger.InfoF("问题：%s", data)
+		go_logger.Logger.InfoF("命令：%s，问题：%s", command, data)
+		if data == "" || command == "" {
+			return ""
+		}
 		var result struct{
 			Choices []struct{
 				Text string `json:"text"`
