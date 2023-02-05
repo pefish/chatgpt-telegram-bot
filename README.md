@@ -1,4 +1,4 @@
-# XXX
+# chatgpt-telegram-bot
 
 [![view examples](https://img.shields.io/badge/learn%20by-examples-0C8EC5.svg?style=for-the-badge&logo=go)](https://github.com/pefish/chatgpt-telegram-bot)
 
