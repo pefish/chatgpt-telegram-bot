@@ -1,32 +1,32 @@
 # XXX
 
-[![view examples](https://img.shields.io/badge/learn%20by-examples-0C8EC5.svg?style=for-the-badge&logo=go)](https://github.com/pefish/XXX)
+[![view examples](https://img.shields.io/badge/learn%20by-examples-0C8EC5.svg?style=for-the-badge&logo=go)](https://github.com/pefish/chatgpt-telegram-bot)
 
 Read this in other languages: [English](README.md), [简体中文](README_zh-cn.md)
 
-XXX
+chatgpt-telegram-bot
 
 ## Install
 
 ```
-go get github.com/pefish/XXX/cmd/XXX
+go get github.com/pefish/chatgpt-telegram-bot/cmd/chatgpt-telegram-bot
 ```
 
 ## Quick start
 
 ```shell script
-XXX --config=/path/to/config
+chatgpt-telegram-bot --config=/path/to/config
 ```
 
 or
 
 ```shell script
-GO_CONFIG=/path/to/config XXX
+GO_CONFIG=/path/to/config chatgpt-telegram-bot
 ```
 
 ## Document
 
-[doc](https://godoc.org/github.com/pefish/XXX)
+[doc](https://godoc.org/github.com/pefish/chatgpt-telegram-bot)
 
 ## Contributing
 
